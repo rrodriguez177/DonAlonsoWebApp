@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Don Alonso</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Don Alonso 🐂</h1>
+    <h2>Control de caravanas</h2>
+    <form id="formulario">
+      <label for="caravana">Número de Caravana:</label>
+      <input type="number" id="caravana" name="caravana" required />
+
+      <label for="vino">¿Vino al Corral?</label>
+      <select id="vino" name="vino_al_corral" required>
+        <option value="Sí">Sí</option>
+        <option value="No">No</option>
+      </select>
+
+      <label for="fecha">Fecha de Visita:</label>
+      <input type="date" id="fecha" name="fecha" required />
+
+      <button type="submit">Guardar</button>
+    </form>
+  </div>
+</body>
+</html>
