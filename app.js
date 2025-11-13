@@ -1,5 +1,4 @@
-
-const scriptURL = 'https://script.google.com/macros/s/AKfycbyNHrv71YrV9ts6OGv5J0yekvXlBudk_NY6m4i-724nF0EG1PEMaPNq2Zv50F2XtWul/exec';
+const scriptURL = 'https://script.google.com/macros/s/AKfycbynNHr71lYY9ts60Gv5J0yekvxlBudk_NY6m4i-724nF0EG1PEMaPNq2Zv50F2XtWu/exec';
 const form = document.getElementById('formulario');
 const fechaInput = document.getElementById('fecha');
 
@@ -24,7 +23,7 @@ form.addEventListener('submit', e => {
       }
     })
     .catch(error => {
-      console.error('Error:', error);
-      alert('No se pudo conectar con el servidor. Verifica la URL del script o los permisos.');
+      console.error('Error!', error.message);
+      alert('Error de red o CORS. Verifica la implementación del script.');
     });
 });
