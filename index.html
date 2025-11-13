@@ -2,49 +2,52 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <title>Don Alonso 🐂</title>
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background-image: url('fondo.jpeg');
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            height: 100vh;
-        }
-        .form-container {
-            background-color: rgba(255, 255, 255, 0.95);
-            width: 90%;
-            max-width: 600px;
-            margin: 50px auto;
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
-            text-align: center;
-        }
-        iframe {
-            width: 100%;
-            height: 700px;
-            border: none;
-        }
-        h1 {
-            margin: 0;
-            font-size: 2em;
-        }
-        h2 {
-            margin-top: 5px;
-            font-size: 1.2em;
-            color: #444;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Don Alonso 🐂 - Control de caravanas</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-image: url('fondo.jpeg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .container {
+      background-color: rgba(255, 255, 255, 0.95);
+      padding: 20px;
+      border-radius: 12px;
+      max-width: 480px;
+      width: 90%;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    iframe {
+      width: 100%;
+      height: 600px;
+      border: none;
+      border-radius: 8px;
+    }
+  </style>
 </head>
 <body>
-    <div class="form-container">
-        <h1>Don Alonso 🐂</h1>
-        <h2>Control de caravanas</h2>
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfIZskg53H46GPRjx7evzuzU0a2hki7EC_t66W5T_5aBbVbRw/viewform?embedded=true">Cargando…</iframe>
+  <div class="container">
+    <div class="header">
+      <h2>Don Alonso 🐂</h2>
+      <h3>Control de caravanas</h3>
     </div>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfIZskg53H46GPRjx7evzuzU0a2hki7EC_t66W5T_5aBbVbRw/viewform?embedded=true" allowfullscreen></iframe>
+  </div>
 </body>
 </html>
